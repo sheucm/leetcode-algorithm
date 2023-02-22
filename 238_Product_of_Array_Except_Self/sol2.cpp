@@ -1,3 +1,6 @@
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
@@ -14,7 +17,7 @@ public:
                 pre_v * suf_v
             );
         }
-        cout << "hello" << endl;
+
 
         return ans;
     }
