@@ -1,5 +1,7 @@
 # leecode
 leecode solutions
 
-### folder naming convention
+### Folder naming convention
+```
 <No>_<Topic>__<Title>
+```
