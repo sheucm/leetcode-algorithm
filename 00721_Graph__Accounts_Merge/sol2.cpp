@@ -61,7 +61,7 @@ public:
                 continue;
             }
 
-            set<string> emails;
+            set<string> emails; // set will sort by default
             dfs(node, is_visit, emails);
 
 
@@ -69,7 +69,6 @@ public:
             for (const string& email : emails) {
                 account.push_back(email);
             }
-            sort(account.begin() + 1, account.end());
             ans.push_back(account);
         }
 
