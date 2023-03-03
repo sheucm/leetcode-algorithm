@@ -22,10 +22,6 @@ class Solution {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
 
-        if (accounts.size() == 0) {
-            return vector<vector<string>>();
-        }
-
         // build graph
         unordered_map<string, Node*> m;     // <email, node>
         for (auto& account : accounts) {
@@ -61,7 +57,7 @@ public:
                 continue;
             }
 
-            set<string> emails; // set will sort by default
+            set<string> emails;     // will sort by default
             dfs(node, is_visit, emails);
 
 
