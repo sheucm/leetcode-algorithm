@@ -8,20 +8,12 @@ public:
         vector<pair<int, int>> start_points;
         for (int i = 0; i < M; i++) {
             for (int j = 0; j < N; j++) {
-                if (board[i][j] == word[0]) {
-                    start_points.push_back(pair<int, int>({i, j}));
+                if (_dfs(i, j, 0, word, M, N, board)) {
+                    return true;
                 }
             }
         }
-
-        for (const auto & p : start_points) {
-            auto [i, j] = p;
-            if (_dfs(i, j, 0, word, M, N, board)) {
-                return true;
-            }
-        }
         return false;
-        
     }
 private:
     const vector<int> DIR {0, 1, 0, -1, 0};
