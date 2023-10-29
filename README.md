@@ -1,5 +1,5 @@
-# leecode
-The leecode solutions for algorithm category writen in either C++ or Python.
+# leetcode
+The leetcode solutions for algorithm category writen in either C++ or Python.
 (Only Median and Hard)
 
 ### Folder naming convention
