@@ -1,42 +1,41 @@
-class Solution:
 
+
+class Solution:
 
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
 
-        if endWord not in wordList:
-            return 0
+        # O(N)
         if beginWord not in wordList:
-            wordList.append(beginWord)
-
-        neib = {}
-        for word in wordList:
-            for i in range(len(word)):
-                pattern = word[:i] + "*" + word[i+1:]
-                neib[pattern] = neib.get(pattern, [])
-                neib[pattern].append(word)
+            wordList = [beginWord] + wordList
         
-        q = [beginWord]
-        visit = set()
-        visit.add(beginWord)
-        step = 1
+        _m = {}
 
+        # O(N * Lw)
+        for idx, w in enumerate(wordList):
+            for i in range(len(w)):
+                key = w[:i] + '*' + w[i+1:]
+                _m[key] = _m.get(key, []) + [idx]
+        
+        
+        WORD = 0
+        LEVEL = 1
+        q = [(beginWord, 1)]
+        visited = []
+
+        ## BFS: O(N * Lw)
         while q:
-            tmp_set = set()
-            for word in q:
-                if word == endWord:
-                    return step
-
-                for i in range(len(word)):
-                    pattern = word[:i] + "*" + word[i+1:]
-                    for neib_word in neib[pattern]:
-                        if neib_word not in visit:
-                            tmp_set.add(neib_word)
-                            visit.add(neib_word)
-                
-            q = list(tmp_set)
-            step += 1
-
+            p = q.pop(0)
+            if p[WORD] == endWord:
+                return p[LEVEL]
+            if p[WORD] in visited:
+                continue
+            visited.append(p[WORD])
+            s = set()
+            for i in range(len(p[WORD])):
+                key = p[WORD][:i] + '*' + p[WORD][i+1:]
+                for _next in _m.get(key, []):
+                    s.add((wordList[_next], p[LEVEL] + 1))
+            q = q + list(s)
+        
         return 0
-
-
 
