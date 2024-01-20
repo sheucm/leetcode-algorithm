@@ -1,6 +1,6 @@
 
 # Problem
-(empty)
+https://leetcode.com/problems/3sum/
 
 # Skill
 (empty)
@@ -12,7 +12,7 @@
 (empty)
 
 # Time Complexity
-(empty)
+O(N^2)
 
 # Reference
 (empty)
