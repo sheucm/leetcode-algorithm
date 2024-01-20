@@ -1,6 +1,6 @@
 
 # Problem
-(empty)
+https://leetcode.com/problems/missing-number/
 
 # Skill
 (empty)
@@ -12,8 +12,8 @@
 (empty)
 
 # Complexity
-Time: (empty)
-Space: (empty)
+Space: O(1)
+Time: O(N)
 
 # Reference
 (empty)
