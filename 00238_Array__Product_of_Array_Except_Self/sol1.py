@@ -1,27 +1,16 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         
-        zero_idx = []
-        non_zero_total = 1
-        total = 1
-        for idx, n in enumerate(nums):
-            if n != 0:
-                non_zero_total *= n
-            else:
-                zero_idx.append(idx)
+        sol = [1] * len(nums)
+        pre = 1
+
+        for i in range(len(nums)):
+            sol[i] *= pre
+            pre *= nums[i]
         
-        if len(zero_idx) >= 2:
-            return [0] * len(nums)
-        
-        ans = []
-        if len(zero_idx):
-            for n in nums:
-                if n != 0:
-                    ans.append(0)
-                else:
-                    ans.append(non_zero_total)
-        else:
-            for n in nums:
-                ans.append(non_zero_total // n)
+        post = 1
+        for i in range(len(nums)-1, -1, -1):
+            sol[i] *= post
+            post *= nums[i]
                 
-        return ans
+        return sol
