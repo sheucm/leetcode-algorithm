@@ -1,47 +1,44 @@
 from typing import List
 class Solution:
-    def coinChange(self, coins: List[int], amount: int) -> int:
+    def __init__(self):
+        self.cache = {}
 
-        if amount == 0:
-            return 0
+    def coinChange(self, coins: List[int], amount: int) -> int:
+        
         coins = [c for c in coins if c <= amount]
 
-        ### Solution1: DP (Bottom Up)
-        DP = [float('inf')] * (amount + 1)
+
+        ### Solution1: cache
+        ### Time Complexity: O(amount * len(coins))
+        ### Space Complexity: O(amount)
+        # if amount == 0:
+        #     return 0
+        # if amount < 0:
+        #     return float('inf')
+        # if amount in self.cache:
+        #     return self.cache[amount]
+        # ans = float('inf')
+        # for coin in coins:
+        #     ret = self.coinChange(coins, amount - coin)
+        #     if ret != -1:
+        #         ans = min(ans, ret + 1)
+        # ans = ans if ans != float('inf') else -1
+        # self.cache[amount] = ans
+        # return ans
+
+
+        ### Solution2: DP
+        ### Time Complexity: O(amount * len(coins))
+        ### Space Complexity: O(amount)
+        DP = [float('inf')] * (amount+1)
         DP[0] = 0
-        for coin in coins:
-            DP[coin] = 1
-            for am in range(coin+1, amount+1):
-                DP[am] = min(DP[am], 1 + DP[am - coin])
-        return -1 if DP[amount] == float('inf') else DP[amount]
+        for i in range(1, amount + 1):
+            for coin in coins:
+                if i - coin >= 0:
+                    DP[i] = min(DP[i], DP[i-coin] + 1)
+        ans = DP[amount] if DP[amount] != float('inf') else -1
+        return ans
 
-
-        ### Solution2: DP (Top Down)
-        # DP = {}
-        # def _func(_amount):
-
-        #     if _amount < 0:
-        #         return float('inf')
-        #     if _amount == 0:
-        #         return 0
-        #     if _amount in DP:
-        #         return DP[_amount]
-            
-        #     ret = float('inf')
-        #     for coin in coins:
-        #         ret = min(ret, _func(_amount - coin) + 1)
-
-        #     DP[_amount] = ret
-        #     return ret
-
-        # ans = _func(amount)
-        # return -1 if ans == float('inf') else ans
 
 
         
-if __name__ == '__main__':
-    amount = 11
-    coins = [1,2,5]
-    answer = 3
-    ret = Solution().coinChange(coins, amount)
-    print(ret)
