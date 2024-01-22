@@ -77,8 +77,10 @@ Problem Types:
 
 ###### Interval
 ```
+Concept: Overlap / Merge / Insert
 Problem Types
-1. Insert Interval (Check Overlap + Merge)
+1. Insert Interval (Check Overlap + Merge). Example: 57. Insert Interval (Medium-O(N)-O(N))
+2. Merge Interval. Example: 56. Merge Intervals (Medium-O(N)-O(N))
 ```
 
 
