@@ -10,7 +10,7 @@ https://leetcode.com/problems/pacific-atlantic-water-flow/
 
 # Solving Mindset
 1. Divide into two sub-problom. One is for Atlantic. Another is for Pacific
-2. Use DFS/BFS to complete two sub-problems
+2. Use DFS/BFS to complete two sub-problems starting from border cells.
 3. Merge the results
 
 # Complexity
