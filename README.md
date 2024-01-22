@@ -81,6 +81,15 @@ Concept: Overlap / Merge / Insert
 Problem Types
 1. Insert Interval (Check Overlap + Merge). Example: 57. Insert Interval (Medium-O(N)-O(N))
 2. Merge Interval. Example: 56. Merge Intervals (Medium-O(N)-O(N))
+3. Non-overlapping. Example: 435. Non-overlapping Intervals. (Medium-O(N)-O(N)) / 252. Meeting Rooms (Medium-O(N)-O(N))
+4. Minimum Number of Meeting Rooms. Example: 253. Meeting Rooms II. (Medium-O(NlogN)-O(N))
+```
+
+###### Linked List
+```
+Problem Types:
+1. Reverse Linked List. Example: 206. Reverse Linked List (Easy-O(N)-O(1))
+2. Cycle Linked List. Example: 141. Linked List Cycle. (Easy-O(N)-O(1))
 ```
 
 
