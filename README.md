@@ -45,7 +45,7 @@ Problem Types:
 3. Use "prev" and "post" to iterate list. Example: 238. Product of Array Except Self (Medium-O(N)-O(1))
 4. Use (max, min, or both) "DP" to iterate list. Example: 53. Maximum Subarray (Medium-O(N)-O(N)) / 152. Maximum Product Subarray (Medium-O(N)-O(N))
 5. Use "left-right-medium" for "Binary Search" to loop the list. Example: 153. Find Minimum in Rotated Sorted Array (Medium-O(logN)-O(1)) / 33. Search in Rotated Sorted Array (Medium-O(logN)-O(1))
-6. Use "left++ / right--" + "Sort" to iterate list. 15. 3Sum:  (Medium-O(N^2)-O(N)) / 11. Container With Most Water (Medium-O(N)-O(1))
+6. Use "Sort" and "left++ / right--" to iterate list. 15. 3Sum:  (Medium-O(N^2)-O(N)) / 11. Container With Most Water (Medium-O(N)-O(1))
 ```
 ###### Binary
 ```
