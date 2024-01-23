@@ -14,7 +14,7 @@ https://leetcode.com/problems/merge-k-sorted-lists/description/
 
 # Complexity
 Time: O(N * logK)
-Space: O(N*K)
+Space: O(logK)
 
 # Reference
 - https://www.youtube.com/watch?v=q5a5OiGbT6Q

@@ -13,7 +13,7 @@ https://leetcode.com/problems/merge-two-sorted-lists/description/
 
 # Complexity
 Time: O(N+M)
-Space: O(N+M)
+Space: O(1)
 
 # Reference
 - https://www.youtube.com/watch?v=XIdigk956u0

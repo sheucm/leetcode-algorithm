@@ -31,7 +31,7 @@ class Solution:
         
         ### Solution 1: Merge Sort
         ### Time Complexity: O(N * logK)
-        ### Space Complexity: O(N*K)
+        ### Space Complexity: O(logK)
         if not lists:
             return None
         while len(lists) > 1:

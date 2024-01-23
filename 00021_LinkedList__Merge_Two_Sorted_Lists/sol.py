@@ -7,7 +7,7 @@ class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         
         ### Time Complexity: O(N+M)
-        ### Space Complexity: O(N+M)
+        ### Space Complexity: O(1)
         head = ListNode() # Create Dummy
         tail = head
         while list1 and list2:
