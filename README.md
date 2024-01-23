@@ -67,7 +67,7 @@ Solution2: Use DP (Bottom-up)
 
 ###### Graph
 ```
-Concept: Traverse graph nodes
+Concept: Traverse graph nodes using DFS/BFS
 Problem Types:
 1. (DAG)Topo Order Visit. Example: course problem
 2. Detect Unconneted. Example: Find Island Count
