@@ -93,6 +93,7 @@ Problem Types:
 3. Merge. Example: 21. Merge Two Sorted Lists (Easy-O(M+N)-O(M+N))
 4. Merge K List. Example: 23. Merge k Sorted Lists (Hard-O(N * logK)-O(N*K))
 5. Remove node. Example: 19. Remove Nth Node From End of List (Easy-O(N)-O(1))
+6. Find Middle + Reverse + Merge. (in-place) Example: 143. Reorder List (Medium-O(N)-O(1))
 ```
 
 
