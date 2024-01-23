@@ -88,8 +88,9 @@ Problem Types
 ###### Linked List
 ```
 Problem Types:
-1. Reverse Linked List. Example: 206. Reverse Linked List (Easy-O(N)-O(1))
-2. Cycle Linked List. Example: 141. Linked List Cycle. (Easy-O(N)-O(1))
+1. Reverse. Example: 206. Reverse Linked List (Easy-O(N)-O(1))
+2. Detect Cycle. Example: 141. Linked List Cycle. (Easy-O(N)-O(1))
+3. Merge. Example: 21. Merge Two Sorted Lists (Easy-O(M+N)-O(M+N))
 ```
 
 
