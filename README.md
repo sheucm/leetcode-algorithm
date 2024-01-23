@@ -91,6 +91,7 @@ Problem Types:
 1. Reverse. Example: 206. Reverse Linked List (Easy-O(N)-O(1))
 2. Detect Cycle. Example: 141. Linked List Cycle. (Easy-O(N)-O(1))
 3. Merge. Example: 21. Merge Two Sorted Lists (Easy-O(M+N)-O(M+N))
+4. Merge K List. Example: 23. Merge k Sorted Lists (Hard-O(N * logK)-O(N*K))
 ```
 
 
