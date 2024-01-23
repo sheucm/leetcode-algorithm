@@ -92,6 +92,7 @@ Problem Types:
 2. Detect Cycle. Example: 141. Linked List Cycle. (Easy-O(N)-O(1))
 3. Merge. Example: 21. Merge Two Sorted Lists (Easy-O(M+N)-O(M+N))
 4. Merge K List. Example: 23. Merge k Sorted Lists (Hard-O(N * logK)-O(N*K))
+5. Remove node. Example: 19. Remove Nth Node From End of List (Easy-O(N)-O(1))
 ```
 
 
