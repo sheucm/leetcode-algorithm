@@ -96,7 +96,11 @@ Problem Types:
 6. Find Middle + Reverse + Merge. (in-place) Example: 143. Reorder List (Medium-O(N)-O(1))
 ```
 
-
+###### Matrix
+```
+Problem Types:
+1. Fill Zero. Example: 73. Set Matrix Zeroes (Medium-O(M*N)-O(1))
+```
 
 
 
