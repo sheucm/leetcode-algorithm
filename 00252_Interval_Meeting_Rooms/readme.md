@@ -13,7 +13,7 @@ https://leetcode.com/problems/meeting-rooms/description/
 
 # Complexity
 Time: O(N)
-Space: O(N)
+Space: O(1)
 
 # Reference
 (empty)

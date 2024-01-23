@@ -1,15 +1,13 @@
 class Solution:
     def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
         ### Time Complexity: O(N)
-        ### Space Complexity: O(N)
-        if len(intervals) == 0:
-            return True
-        intervals.sort(key=lambda i: i[0])
-        output = [intervals[0]]
-        for start, end in intervals[1:]:
-            last_end = output[-1][1]
-            if start < last_end:  # Overlap
-                return False
+        ### Space Complexity: O(1)
+        if not intervals: return True
+        intervals.sort()
+        end = intervals[0][1]
+        for itv in intervals[1:]:
+            if itv[0] >= end:
+                end = itv[1]
             else:
-                output.append([start, end])
+                return False
         return True

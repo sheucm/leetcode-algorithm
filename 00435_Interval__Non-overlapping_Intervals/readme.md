@@ -15,7 +15,7 @@ https://leetcode.com/problems/non-overlapping-intervals/description/
 
 # Complexity
 Time: O(N)
-Space: O(N)
+Space: O(1)
 
 # Reference
 - https://www.youtube.com/watch?v=nONCGxWoUfM
