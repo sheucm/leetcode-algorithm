@@ -108,8 +108,11 @@ Problem Types:
 
 ###### String
 ```
+Concept: Sliding Window
 Problem Types:
-1. Sliding Window. Example: 3. Longest Substring Without Repeating Characters. (Medium-O(N)-O(N)) / 424. Longest Repeating Character Replacement. (Medium-O(N)-O(1)) 
+1. Example: 3. Longest Substring Without Repeating Characters. (Medium-O(N)-O(N))
+2. Example: 424. Longest Repeating Character Replacement. (Medium-O(N)-O(1)) 
+3. Example: 76. Minimum Window Substring. (Hard-O(N)-O(1)) 
 ```
 
 
