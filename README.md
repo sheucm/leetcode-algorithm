@@ -109,7 +109,7 @@ Problem Types:
 ###### String
 ```
 Problem Types:
-1. 
+1. Sliding Window. Example: 3. Longest Substring Without Repeating Characters. (Medium-O(N)-O(N)) / 424. Longest Repeating Character Replacement. (Medium-O(N)-O(1)) 
 ```
 
 
