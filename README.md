@@ -100,6 +100,7 @@ Problem Types:
 ```
 Problem Types:
 1. Fill Zero. Example: 73. Set Matrix Zeroes (Medium-O(M*N)-O(1))
+2. Spiral Matrix. Example: 54. Spiral Matrix (Medium-O(M*N)-O(M*N))
 ```
 
 
