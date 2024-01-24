@@ -113,7 +113,7 @@ Problem Types:
 1. Example: 3. Longest Substring Without Repeating Characters. (Medium-O(N)-O(N))
 2. Example: 424. Longest Repeating Character Replacement. (Medium-O(N)-O(1)) 
 3. Example: 76. Minimum Window Substring. (Hard-O(N)-O(1)) 
-4. Anagrams: Example: 242. Valid Anagram (Easy-O(N)-O(1)).
+4. Anagrams: Example: 242. Valid Anagram (Easy-O(N)-O(1)). / 49. Group Anagrams (Medium-O(M*N)-O(M))
 ```
 
 
