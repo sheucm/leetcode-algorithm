@@ -115,6 +115,7 @@ Problem Types:
 3. Example: 76. Minimum Window Substring. (Hard-O(N)-O(1)) 
 4. Anagrams: Example: 242. Valid Anagram (Easy-O(N)-O(1)). / 49. Group Anagrams (Medium-O(M*N)-O(M))
 5. Parentheses (open-close). Example: 20. Valid Parentheses (Easy-O(N)-O(N)) 
+6. Palindrome. Example: 125. Valid Palindrome (Easy-O(N)-O(1)) 
 ```
 
 
