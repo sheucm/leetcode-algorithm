@@ -102,6 +102,7 @@ Problem Types:
 1. Fill Zero. Example: 73. Set Matrix Zeroes (Medium-O(M*N)-O(1))
 2. Spiral Matrix. Example: 54. Spiral Matrix (Medium-O(M*N)-O(M*N))
 3. Metrix Rotate 90 Degree. Example: 48. Rotate Image (Medium-O(N*N)-O(1))
+4. Word Search. (Back-tracking) Example: 79. Word Search. (Medium-O(M * N * 4^W)-O(W))
 ```
 
 
