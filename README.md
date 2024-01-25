@@ -122,6 +122,7 @@ Problem Types:
 
 ###### Tree
 ```
+Concept: DFS (preorder - inorder - postorder) / BFS / Trie
 Problem Types:
 1. Max Depth. Example: 104. Maximum Depth of Binary Tree (Easy-O(N)-O(1))
 2. Compare is Same Tree. Example: 100. Same Tree (Easy-O(N)-O(1))
@@ -131,9 +132,8 @@ Problem Types:
 6. Serialize and Deserialize. Example: 297. Serialize and Deserialize Binary Tree (Hard-O(N)-O(N))
 7. Same Tree / SubTree of another tree. Example: 572. Subtree of Another Tree. (Medium-O(M*N)-O(1))
 8. Example: 105. Construct Binary Tree from Preorder and Inorder Traversal.(Medium-O(N^2)-O(1))
-9. Validate BST. Example: 98. Validate Binary Search Tree. (Medium-O(N)-O(N))
-10. Example: 230. Kth Smallest Element in a BST. (Medium-O(N)-O(1))
-11. Example: 235. Lowest Common Ancestor of a Binary Search Tree. (Medium-O(logN)-O(1))
+9. BST (Binary Search Tree). Example: 98. Validate Binary Search Tree. (Medium-O(N)-O(N)) / Example: 230. Kth Smallest Element in a BST. (Medium-O(N)-O(1)) / Example: 235. Lowest Common Ancestor of a Binary Search Tree. (Medium-O(logN)-O(1))
+10. Trie. Example: 208. Implement Trie (Prefix Tree)
 ```
 
 
