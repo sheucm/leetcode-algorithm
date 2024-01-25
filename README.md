@@ -132,7 +132,8 @@ Problem Types:
 7. Same Tree / SubTree of another tree. Example: 572. Subtree of Another Tree. (Medium-O(M*N)-O(1))
 8. Example: 105. Construct Binary Tree from Preorder and Inorder Traversal.(Medium-O(N^2)-O(1))
 9. Validate BST. Example: 98. Validate Binary Search Tree. (Medium-O(N)-O(N))
-10. Example: 230. Kth Smallest Element in a BST
+10. Example: 230. Kth Smallest Element in a BST. (Medium-O(N)-O(1))
+11. Example: 235. Lowest Common Ancestor of a Binary Search Tree. (Medium-O(logN)-O(1))
 ```
 
 
