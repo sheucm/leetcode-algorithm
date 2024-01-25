@@ -120,3 +120,10 @@ Problem Types:
 ```
 
 
+###### Tree
+```
+Problem Types:
+1. Max Depth. Example: 104. Maximum Depth of Binary Tree (Easy-O(N)-O(1))
+```
+
+
