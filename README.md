@@ -116,6 +116,7 @@ Problem Types:
 4. Anagrams: Example: 242. Valid Anagram (Easy-O(N)-O(1)). / 49. Group Anagrams (Medium-O(M*N)-O(M))
 5. Parentheses (open-close). Example: 20. Valid Parentheses (Easy-O(N)-O(N)) 
 6. Palindrome. Example: 125. Valid Palindrome (Easy-O(N)-O(1)) / 5. Longest Palindromic Substring (Medium-O(N^2)-O(1)) / 647. Palindromic Substrings (Medium-O(N^2)-O(1))
+7. Encode and Decode. Example: 271. Encode and Decode Strings. (Medium-O(N*W)-O(N*W))
 ```
 
 
