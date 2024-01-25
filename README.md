@@ -129,6 +129,7 @@ Problem Types:
 4. Maximum Path Sum. Example: 124. Binary Tree Maximum Path Sum. (Hard-O(N)-O(H))
 5. Tree Level Order Traversal. Example: 102. Binary Tree Level Order Traversal. (Medium-O(N)-O(N))
 6. Serialize and Deserialize. Example: 297. Serialize and Deserialize Binary Tree (Hard-O(N)-O(N))
+7. Same Tree / SubTree of another tree. Example: 572. Subtree of Another Tree. (Medium-O(M*N)-O(1))
 ```
 
 
