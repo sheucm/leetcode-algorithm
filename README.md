@@ -128,6 +128,7 @@ Problem Types:
 3. Invert Tree. Example: 226. Invert Binary Tree (Easy-O(N)-O(1))
 4. Maximum Path Sum. Example: 124. Binary Tree Maximum Path Sum. (Hard-O(N)-O(H))
 5. Tree Level Order Traversal. Example: 102. Binary Tree Level Order Traversal. (Medium-O(N)-O(N))
+6. Serialize and Deserialize. Example: 297. Serialize and Deserialize Binary Tree (Hard-O(N)-O(N))
 ```
 
 
