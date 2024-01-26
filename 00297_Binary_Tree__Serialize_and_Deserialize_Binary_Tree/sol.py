@@ -41,23 +41,21 @@ class Codec:
         
 
     def deserialize(self, data):
+
+        
         ### Solution1: DFS
         ### Time Complexity: O(N)
         ### Space Complexity: O(N)
         vals = data.split(',')
-        idx = 0
-        def dfs():
-            nonlocal idx
-            node = None
-            val = vals[idx]
-            idx += 1
-            if val != 'N':
-                node = TreeNode()
-                node.val = val
-                node.left = dfs()
-                node.right = dfs()
-            return node
-        return dfs()
+        def dfs(v):
+            if len(vals) == 0: return None
+            val = vals.pop(0)
+            if val == 'N': return None
+            v.val = val
+            v.left = dfs(TreeNode())
+            v.right = dfs(TreeNode())
+            return v
+        return dfs(TreeNode())
 
 
         ### Solution2: BFS
