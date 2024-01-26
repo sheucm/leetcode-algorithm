@@ -7,25 +7,37 @@
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         
-
-        ### Solution1: DFS
+        ### Solution3: DFS. (without any extra memory)
         ### Time Complexity: O(N)
         ### Space Complexity: O(1)
         def dfs(v):
             if not v:
                 return None
-            root = TreeNode(
-                val = v.val,
-                left = dfs(v.right),
-                right = dfs(v.left)
-            )
-            return root
+            l, r = v.left, v.right
+            v.left = dfs(r)
+            v.right = dfs(l)
+            return v
         return dfs(root)
+
+
+        ### Solution1: DFS
+        ### Time Complexity: O(N)
+        ### Space Complexity: O(N)
+        # def dfs(v):
+        #     if not v:
+        #         return None
+        #     root = TreeNode(
+        #         val = v.val,
+        #         left = dfs(v.right),
+        #         right = dfs(v.left)
+        #     )
+        #     return root
+        # return dfs(root)
 
 
         ### Solution2: BFS
         ### Time Complexity: O(N)
-        ### Space Complexity: O(1)
+        ### Space Complexity: O(N)
         # def bfs(v):
         #     if not v: return None
         #     root = TreeNode()
