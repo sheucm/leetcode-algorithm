@@ -13,8 +13,8 @@ https://leetcode.com/problems/word-search-ii/
 (empty)
 
 # Complexity
-Time: O(4^(MN)*W)
-Space: (empty)
+Time: O(M*N*4^Wlen)
+Space: O(Wcnt*Wlen)
 
 # Reference
 - https://www.youtube.com/watch?v=asbcE9mZz_U

@@ -7,9 +7,10 @@ class TrieNode:
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
         ### Solution: Trie + DFS Backtracking
-        ### Time Complexity: O(4^(M*N)*H)
-        ### For X words search: Time Complexity: O(M*N*W*X)
-        ### Can we do better?
+        ### Time Complexity: O(M*N*4^Wlen)
+        ### Space Complexity: O(Wcnt*Wlen)
+        ### For X words search: Time Complexity: O(Wcnt * M * N * 4^Wlen)
+        ### We use Trie to reduce "O(Wcnt)" to "O(1)"
 
 
         root = TrieNode()
