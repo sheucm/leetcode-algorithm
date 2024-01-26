@@ -136,4 +136,10 @@ Problem Types:
 10. Trie. Example: 208. Implement Trie (Prefix Tree) / 211. Design Add and Search Words Data Structure / 212. Word Search II (Hard-O(4^(M*N)*Wlen)-O(W*Wlen))
 ```
 
+###### Heap
+```
+Problem Types:
+1. Example: 23. Merge k Sorted Lists. (Hard-O(N*logK)-O(logK))
+2. Example: 347. Top K Frequent Elements. (Medium-O(N)-O(N))
+```
 
