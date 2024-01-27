@@ -63,6 +63,8 @@ Problem Types:
 Concept: Can divide into sub-problem.
 Solution1: Use cache + recursion
 Solution2: Use DP (Bottom-up)
+Problem Types:
+- Coin Changes. Example: 518. Coin Change II (Medium-O(M*N)-O(N))
 ```
 
 ###### Graph
