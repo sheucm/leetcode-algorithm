@@ -16,4 +16,4 @@ Time: O(N)
 Space: O(1)
 
 # Reference
-(empty)
+- Similar Hackerrank Question: https://www.hackerrank.com/challenges/stockmax/problem
