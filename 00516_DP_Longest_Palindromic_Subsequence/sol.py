@@ -14,6 +14,26 @@ class Solution:
                     )
         return DP[0][0]
 
+    def helper(self, s, start, end, cache):
+        if start > end:
+            return 0
+        if (start, end) in cache:
+            return cache[(start, end)]
+        res = 0
+        if s[start] == s[end]:
+            length = 2 if start != end else 1
+            res = length + self.helper(s, start+1, end-1, cache)
+        else:
+            res = max(
+                self.helper(s, start+1, end, cache),
+                self.helper(s, start, end-1, cache)
+            )
+        cache[(start, end)] = res
+        return res
     def longestPalindromeSubseq(self, s: str) -> int:
         
-        return self._longestCommonSubseq(s, s[::-1])
+        ### Solution1:
+        return self.helper(s, 0, len(s)-1, {})
+        
+        ### Solution2: Use LCS Alg.
+        # return self._longestCommonSubseq(s, s[::-1])
