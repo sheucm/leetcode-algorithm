@@ -146,3 +146,8 @@ Problem Types:
 3. Find Medium. Example: 295. Find Median from Data Stream. (Hard-O(logN)-O(N)) for addNum
 ```
 
+
+
+# Beside Brind75
+- 518. Coin Change II
+- 39. Combination Sum
